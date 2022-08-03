@@ -105,16 +105,17 @@ input{
     
 }
 
-input:focus{
-    border:1px solid green;
-}
-
 input:valid{
     border-color:green;
 }
 
 input:invalid{
     border-color:red;
+}
+
+input:focus{
+    outline:none;
+    border:1px solid blue;
 }
 
 button{
